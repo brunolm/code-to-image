@@ -1,0 +1,12 @@
+@html.extend('layout', function(model){
+  @html.block('content', function(model){
+    
+    <h2>@model.title</h2>
+
+    @model.codes.forEach(function(code) {
+      <pre>@code</pre>    
+    })
+
+    <script type="text/javascript" src="/static/index.js"></script>
+  })
+})

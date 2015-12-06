@@ -1,0 +1,150 @@
+[JS] What is "..." when invoking a function in ES6?
+[JS] What is the result of Math.min([1, 2, 3])?
+[JS] What is the result of Math.min(...[1, 2, 3])?
+[JS] What is the result of Math.max([1, 2, 3])?
+[JS] What is the result of Math.max(...[1, 2, 3])?
+[JS] ![]
+[JS] !{}
+[JS] !null
+[JS] !undefined
+[JS] 1 + '1'
+[JS] +!![]+!![]
+[JS] 'Bravi Software'.slice(0, 5)
+[JS] 'Bravi'.split('')
+[JS] 1 == '1'
+[JS] 1 === '1'
+[JS] typeof 'Bravi'
+[JS] typeof []
+[JS] typeof new Number(10)
+[Regex] 'he110 29 world'.replace(???, '') === 'he110 w0r1d'
+[Regex] 'Bravi'.replace(/\B(.)/g, '-$1')
+[Regex] /MDZHB \d{2} \d{3} [A-Z]+/
+[Regex] /\D+/
+[Regex] /\W+/
+[Regex] /^\S+$/
+[Regex] /^[a-z]+$/
+[Regex] /^[A-Z]+$/
+[Regex] /^[az]$/
+[Regex] /^\w+$/
+[Regex] /^\d+$/
+[Regex] /\s/
+[Regex] /[^\d]/
+[Regex] /^[A-Z]+$/i
+[Regex] /\./
+[Regex] /(\d+)\.\1/
+[Regex] /[+-](?=\d+)/
+[Regex] /[+-](?!\d+)/
+[Regex] /(?:\d)(\d+)\.\1/
+[Regex] /\d{1,3}/
+[Regex] /^Bra*vi$/
+[Regex] /Bravi( Software)?/
+[Regex] 'JabbaScripbBt'.replace(???, 'v') === 'JavaScript'
+[JS] [1, 5, 10].some(x => x > 5)
+[JS] [1, 5, 10].every(x => x > 5)
+[JS] [1, 2, 3].map((x, i) => x + i)
+[JS] [1, 2, 3].map((x, y, w, z, i) => x + i) + ' Batman'
+[JS] [1, 1, 1].reduce((x, y) => x + y)
+[JS] [1, 1, 1].reduce((x, y) => x + y, 10)
+[JS] [1, 5, 10].filter(x => x > 1)
+[JS] [1, 2, 3].concat([4, 5, 6])
+[JS] [1, 2, 3].fill(1, 1)
+[JS] [1, 2, 3].join('')
+[JS] [1, 2, 3].indexOf(2)
+[JS] [1, 2, 3].indexOf(4)
+[JS] [1, 2, 1].lastIndexOf(1)
+[JS] [1, 2, 1].lastIndexOf(0)
+[JS] [1, 2, 3].push(4)
+[JS] [1, 2, 3].pop()
+[JS] [1, 2, 3].slice(1)
+[JS] [1, 2, 3].slice(-1)
+[JS] [1, 2, 3].slice(1, 2)
+[JS] [1, 2, 3].slice(1, 1)
+[JS] [1, 2, 3].shift()
+[JS] [2, 3].unshift(1)
+[JS] [3, 1, 2].sort()
+[JS] [3, 1, 2].sort((x, y) => y - x)
+[JS] [1, 2, 3].splice(0, 1, 3)
+[JS] 2 ** 3 = ?
+[JS] (1.9999).toFixed(2)
+[JS] (0.9).toExponential()
+[JS] Object.assign(o1, o2, o3)
+[JS] Object.freeze(obj)
+[JS] Object.is(p1, p2)
+[JS] Object.keys(obj)
+[JS] Number(5).valueOf()
+[JS] let a1 = 'a', a2 = 'b'; `${a1} is not ${a2}` = ?
+[JS] What is 'c'?
+[JS] 'c' + "a"
+[JS] Buffer('u97u98').toString()
+[JS] let a = 1; \u0061 + a = ?
+[JS] console.log(1 == '1')
+[JS] this.a = 1; this.a = ?
+[JS] (x == false) === true; What is the value of x?
+[JS] var i=20; for (var i=0; i<12; i++) { /* ... */ }; console.log(i);
+[JS] let i=20; for (let i=0; i<12; i++) { /* ... */ }; console.log(i);
+[JS] for (const i=0; i<5; i++) { console.log(i); }
+[JS] const name = 'John'; name = 'Holloway'; name = ?
+[JS] typeof arguments
+[JS] what is 2 + true?
+[JS] parseFloat('12.3.4')
+[JS] null == undefined
+[JS] 3 instanceof Number
+[JS] !!function(){}
+[JS] typeof null
+[JS] var a = 2, b = 3; a && b ?
+[JS] -5%2
+[JS] .1+.2
+[JS] typeof NaN
+[JS] typeof Number
+[JS] 2 in [1,2]
+[JS] isNaN(undefined)
+[JS] !function(a, b) { return a + b; }(1, 2)
+[JS] (function(a, b) { return a + b; })(1, 2)
+[JS] Array.from('abc')
+[JS] Array.from({ length: 3 }, (a, b) => b)
+[JS] Array.of('hello')
+[JS] let a = [1, 2, 3]; for (let i in a) { console.log(i); }
+[JS] let a = [1, 2, 3]; for (let i of a) { console.log(i); }
+[JS] const foo = () => 1; console.log(foo());
+[JS] const add = (a, b = 5) => a + b; add(5);
+[JS] const add = (...x) => x.reduce((a, b) => a + b); add(1, 2);
+[JS] var a = [1, 2, 3], b = [4, 5, ...a]; b = ?
+[JS] 0b1011 === 0o13
+[JS] let a = 1, b = 2; let x = { a, b }; x = ?
+[JS] let obj = { ['val_' + (1 + 1)]: 2 };
+[JS] let obj = { add(a, b) { return a + b; } }; obj.add(1, 1);
+[JS] let [a, b] = [1, 2, 3];
+[JS] let { foo, bar } = { foo: 10, bar: 15 };
+[JS] let { a, b: { a: b } } = { a: 10, b: { a: 1 } };
+[JS] const foo = ({ n, v }) => `${n} -> ${v}`; foo({ n: 'Foo', v: 1 })
+[JS] import * as math from './math';
+[JS] import { sum, pi } from './math'
+[JS] export default (a, b) => a + b;
+[JS] class Foo { bar() () => 'baz' }; new Foo().bar()
+[JS] class Foo { bar() { return 'baz' } }; new Foo().bar()
+[JS] class Foo extends Bar { }
+[JS] class Foo extends Bar { toString() { return super.toString(); } }
+[JS] class Foo { static bar() { return 'bar'; } }
+[JS] Inside a class, having name = 'foo': get name() { return this._name; }
+[JS] Inside a class: set name(v) { this._name = v; }
+[JS] const foo = Symbol(); let obj = {}; obj[foo] = 'foo';
+[JS] [Symbol.iterator]() { ... }
+[JS] let obj = { *[Symbol.iterator]() { yield 1; yield 2; } }; for (let n of obj) { }
+[JS] let set = new Set(); set.add('foo'); set.add('bar'); set.size = ?
+[JS] let set = new Set(); set.add('foo'); set.add('bar'); set.has('foo')
+[JS] let m = new Map(); map.add('foo', 'bar'); m.get('foo');
+[JS] [1, 2, 3, 4, 5].find(x => x >= 3)
+[JS] 'foo'.repeat(2)
+[JS] 'foo'.startsWith('f')
+[JS] 'foo'.endsWith('oo')
+[JS] 'foobar'.includes('oba')
+[JS] Number.isNaN(42)
+[JS] Number.isFinite(1 / 0)
+[JS] Number.isSafeInteger(-0)
+[JS] Number.isSafeInteger(99999 ** 99999)
+[JS] (.1 + .2) - .3 < Number.EPSILON
+[JS] Math.trunc(-0.1) === Math.floor(-0.1)
+[JS] Math.sign(7)
+[JS] Math.sign(-7)
+[JS] Math.sign(0)
+[JS] let f = new Intl.DateTimeFormat('pt-BR'); f.format(Date.now);

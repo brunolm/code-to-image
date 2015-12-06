@@ -1,0 +1,28 @@
+{
+  "name": "codetoimg",
+  "version": "1.0.0",
+  "description": "Converts code into an image.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node built/index.js",
+    "dev": "nodemon -i .git/ -i .vscode/ -i node_modules/ built/index.js",
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "private"
+  },
+  "keywords": [
+    "code-to-image"
+  ],
+  "author": "BrunoLM <brunolm7@gmail.com> (http://codingwise.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "js-beautify": "^1.5.10",
+    "vash": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
