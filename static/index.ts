@@ -16,3 +16,17 @@ codes.forEach(c => {
 
   c.parentNode.insertBefore(canvas, c.nextElementSibling);
 });
+
+let downloadButton = document.getElementById("download");
+
+downloadButton.addEventListener("click", () => {
+  let allCanvas = Array.prototype.slice.call(document.querySelectorAll("canvas"), 0);
+
+  allCanvas.forEach((c, i) => {
+    let a = document.createElement("a");
+    a.href = c.toDataURL();
+    (<any>a).download = `_${i}_code.jpg`;
+    a.target = "_blank";
+    a.click();
+  });
+}, false);

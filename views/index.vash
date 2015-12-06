@@ -3,6 +3,8 @@
     
     <h2>@model.title</h2>
 
+    <a id="download" href="#">Download all images</a>
+
     @model.codes.forEach(function(code) {
       <pre>@code</pre>    
     })
